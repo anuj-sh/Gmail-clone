@@ -19,7 +19,7 @@ const Signup = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("https://gmail-clone-uk0w.onrender.com/api/v1/auth/signup", input, {
+            const res = await axios.post("https://gmail-clone-uk0w.onrender.com/api/v1/auth/register", input, {
                 headers:{
                     'Content-Type':"application/json"
                 },
